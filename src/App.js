@@ -6,15 +6,15 @@ function App() {
   const tarifs = [
     {
       title: "Мой онлайн+", price: 700, text: "безлимит на Tele2 России",
-      minutes: 800, internet: "30 ГБ интернета", id: "first"
+      minutes: 800, internet: "30 ГБ интернета", id: 1
     },
     {
       title: "Везде онлайн+", price: 500, text: "безлимит на Tele2 России",
-      minutes: 500, internet: "40 ГБ интернета"
+      minutes: 500, internet: "40 ГБ интернета", id: 2
     },
     {
       title: "Мой онлайн", price: 400, text: "безлимит на Tele2 России",
-      minutes: 500, internet: "15 ГБ интернета"
+      minutes: 500, internet: "15 ГБ интернета", id: 3
     }
   ]
   return (
